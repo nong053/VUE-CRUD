@@ -11,13 +11,14 @@ import { RouterLink, RouterView } from 'vue-router'
          
           My App
         </q-toolbar-title>
-      </q-toolbar>
-
       <q-tabs >
-        <q-route-tab to="/page1" label="Page One" />
-        <q-route-tab to="/page2" label="Page Two" />
-        <q-route-tab to="/page3" label="Page Three" />
+        <q-route-tab to="/" label="Home" />
+        <q-route-tab to="/create" label="Create" />
+        <q-route-tab to="/about" label="About" />
+
       </q-tabs>
+
+    </q-toolbar>
     </q-header>
 
     <q-page-container>
